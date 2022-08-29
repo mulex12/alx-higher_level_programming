@@ -5,5 +5,5 @@ def max_integer(my_list=[]):
         for elm in my_list:
             if elm > max:
                 max = elm
-            return max
-        return None
+        return max
+    return None
