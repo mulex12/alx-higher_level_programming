@@ -6,4 +6,4 @@ def best_score(m_dict):
             if m_dict[k] > m_dict[max]:
                 max = k
             return max
-        return None
+    return None
