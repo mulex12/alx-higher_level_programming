@@ -5,5 +5,5 @@ def best_score(m_dict):
         for k in m_dict:
             if m_dict[k] > m_dict[max]:
                 max = k
-            return max
+        return max
     return None
