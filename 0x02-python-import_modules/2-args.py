@@ -6,4 +6,4 @@ if __name__ == "__main__":
                                  "arguments", "." if n == 1 else ":"))
     for i, j in enumerate(argv):
         if i > 0:
-    print("{:d}: {:s}".format(i, j))
+            print("{:d}: {:s}".format(i, j))
